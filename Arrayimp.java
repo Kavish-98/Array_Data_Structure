@@ -15,17 +15,19 @@ public class Arrayimp {
         for(int i =0; i<size;i++){
             System.out.println(arr[i]);
         }
-        System.out.println("Enter the data for search: ");
-            int data = UserIn.nextInt();
+        System.out.println("Enter the index You want update: ");
+        int ind = UserIn.nextInt();
 
-        int k;
-        for(k=0; k<size;k++){
-            if(arr[k] == data){
-                break;
+        System.out.println("Enter the data you want update:");
+        int ele = UserIn.nextInt();
+        
+        arr[ind] =  ele;
 
-            }
+          System.out.println("Output of array: ");
+        for(int i =0; i<size;i++){
+            System.out.println(arr[i]);
         }
-        System.out.println(k);
+
     }
        
 }

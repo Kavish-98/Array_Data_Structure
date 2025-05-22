@@ -3,7 +3,9 @@ public class Arrayimp {
 
         char[] arr = {'A','B','C',};
 
-        System.out.println(arr.length);
+        for(int i =0; i<arr.length;i++){
+            System.out.println(arr[i]);
+        }
     }
     
     
